@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CleanCity - Waste Reporting</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>♻️ CleanCity</h1>
+    <p class="tagline">Together for a cleaner, greener community</p>
+  </header>
+
+  <main>
+    <section class="report-section">
+      <h2>Report a Waste Issue</h2>
+      <div class="form-container">
+        <input
+          type="text"
+          id="reportInput"
+          placeholder="Describe the issue (e.g. Trash pile near market)"
+        />
+        <button onclick="addReport()">Submit</button>
+      </div>
+    </section>
+
+    <section class="reports-display">
+      <h2>Community Reports</h2>
+      <ul id="reportList"></ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 CleanCity Initiative | Built by [Your Name]</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+  </html>
